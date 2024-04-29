@@ -11,7 +11,7 @@ public interface ClienteService {
 	// metodo para guardar un registro 
 	public Cliente guardar(Cliente cliente);
 	// metodo para eliminar
-	public void delete(Long id);
+	public Cliente delete(Long id);
 	
 	
 }

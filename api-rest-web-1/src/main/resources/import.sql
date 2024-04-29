@@ -9,3 +9,8 @@ INSERT INTO cliente (nombre,apellido,email,telefono,fecha_creacion) VALUE ('Edua
 INSERT INTO cliente (nombre,apellido,email,telefono,fecha_creacion) VALUE ('Luis','Diaz','ld@hotmail.com',634335,'2024-04-24');
 INSERT INTO cliente (nombre,apellido,email,telefono,fecha_creacion) VALUE ('Eder','Delgado','ed@hotmail.com',6434343,'2024-04-24');
 INSERT INTO cliente (nombre,apellido,email,telefono,fecha_creacion) VALUE ('Ramon','Gonzalez','rg@hotmail.com',67656,'2024-04-24');
+
+
+INSERT INTO producto (nombre,tipo,categoria,descripcion,precio_compra,precio_venta,activo) VALUE ('iPhone 15', 'Smarthphone', 'Movil', 'Iphone 15 256GB', 799, 1200,true)
+INSERT INTO producto (nombre,tipo,categoria,descripcion,precio_compra,precio_venta,activo) VALUE ('Xiaomi', 'Smarthphone', 'Movil', 'Mi 15 64GB', 255.99, 1600.10,false)
+INSERT INTO producto (nombre,tipo,categoria,descripcion,precio_compra,precio_venta,activo) VALUE ('Samsung', 'Smarthphone', 'Movil', 'S24', 600.99, 1800.20,true)
